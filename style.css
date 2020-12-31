@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Dosis', sans-serif;
+    background: url("./images/background.jpeg") no-repeat fixed center;
 }
 
 .sidebar {

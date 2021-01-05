@@ -1,6 +1,17 @@
-# Meu site pessoal 1º versão, criado com HTML, CSS e Bootstrap.
+### My own webpage.
 
-<img src ="./images/image.gif">
+###  👨‍💻 Desktop Version 
+<img src ="./github-images/image-desktop.gif">
+
+### 📱 MObile 
+
+<img src ="./github-images/image-mobile.gif">
+
+## ✔ Technologies
+
+- ✔ HTML
+- ✔ CSS
+- ✔ Bootstrap
 
 
 ### Em breve acrescentarei a seção de portifólio e serviços.

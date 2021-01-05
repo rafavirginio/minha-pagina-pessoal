@@ -3,7 +3,7 @@
 ###  👨‍💻 Desktop Version 
 <img src ="./github-images/image-desktop.gif">
 
-### 📱 Mobile Version
+###  Responsive to Mobile Version
 
 <img src ="./github-images/image-mobile.gif">
 

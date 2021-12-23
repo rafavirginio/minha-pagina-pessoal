@@ -9,7 +9,7 @@ body {
   width: 150px;
   position: fixed;
   height: 120vh;
-  background-color: yellow;
+  background-color: rgb(230, 230, 224);
   color: black;
 }
 
@@ -17,7 +17,7 @@ body {
 .sidebar a.active,
 .sidebar a:hover,
 .sidebar .logo {
-  background-color: yellow;
+  background-color: rgb(230, 230, 224);
   text-align: center;
   border: none;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .button-color a button:hover {
-  background-color: yellow;
+  background-color: rgb(230, 230, 224);
   transition: 2s;
   color: black;
   font-weight: bold;
@@ -122,7 +122,7 @@ ul.timeline {
 
 ul.timeline:before {
   content: ' ';
-  background: yellow;
+  background: rgb(230, 230, 224);
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -142,26 +142,21 @@ ul.timeline > li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid yellow;
+  border: 3px solid rgb(230, 230, 224);
   left: 20px;
   width: 20px;
   height: 20px;
   z-index: 400;
 }
 
-ul.timeline > li:hover {
-  background: yellow;
-  color: black;
-}
-
 /* Timeline END */
 
 li a {
+  text-decoration: none;
   color: white;
 }
-
-li a:hover {
-  color: black;
+a:hover {
+  color: white;
 }
 
 .midia-logo img {

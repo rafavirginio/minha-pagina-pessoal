@@ -1,12 +1,4 @@
-### My own webpage.
-
-### 👨‍💻 Desktop Version
-
-<img src ="./github-images/image-desktop.gif">
-
-### 📱 Mobile Version
-
-<img src ="./github-images/image-mobile.gif">
+# Minha Página Pessoal desenvolvida com HTML5, CSS3 e Bootstrap.
 
 ## ✔ Technologies
 

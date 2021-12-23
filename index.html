@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafa Virginio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- 12 colunas do GRID para ocupar a tela toda-->
+      <div class="col-md-12">
+        <div class="list-group sidebar" id="list-tab" role="tablist">
+          <div class="list-group-item logo">
+            <h1>CV</h1>
+          </div>
+          <a
+            class="list-group-item list-group-item-action active"
+            id="list-home-list"
+            data-bs-toggle="list"
+            href="#list-home"
+            role="tab"
+            aria-controls="home"
+          >
+            <img src="./images/person-lines-fill.svg" alt="icon about" />
+            <br />
+            About
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-profile-list"
+            data-bs-toggle="list"
+            href="#list-profile"
+            role="tab"
+            aria-controls="profile"
+          >
+            <img src="./images/card-checklist.svg" alt="icon resume" />
+            <br />
+            Resume
+          </a>
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-messages-list"
+            data-bs-toggle="list"
+            href="#list-messages"
+            role="tab"
+            aria-controls="messages"
+          >
+            <img src="./images/envelope-fill.svg" alt="icon contact" />
+            <br />Contact
+          </a>
+
+          <a
+            class="list-group-item list-group-item-action"
+            id="list-projects-list"
+            data-bs-toggle="list"
+            href="#list-projects"
+            role="tab"
+            aria-controls="projects"
+          >
+            <img src="./images/projects.svg" alt="icon projects" />
+            <br />Projects
+          </a>
+        </div>
+      </div>
+
+      <div class="tab-content content-site" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="list-home"
+          role="tabpanel"
+          aria-labelledby="list-home-list"
+        >
+          <h1
+            class="
+              row
+              justify-content-md-center
+              title-with-border title-with-underline
+            "
+          >
+            Sobre Mim
+          </h1>
+
+          <div class="row justify-content-md-center">
+            <div class="jumbotron col-md-10">
+              <div class="media">
+                <img
+                  src="./images/my-foto.jpeg"
+                  class="mr-3"
+                  alt="Minha foto"
+                />
+                <div class="media-body">
+                  <h3 class="mt-0">Rafael Virgínio da Silva</h3>
+                  <h6 class="my-location">
+                    <img src="./images/location.svg" />São Paulo, Brasil
+                  </h6>
+                  <p>
+                    Entusiasta da tecnologia e em busca de uma oportunidade na
+                    área desenvolvimento. Recém formado em Análise em
+                    Desenvolvimento de sistemas, com engajamento em front-end.
+                    <br />
+                    Sempre em busca de novos conhecimentos e de trocá-los com
+                    outros profissionais, tenho como foco desenvolver soluções,
+                    buscando atender da melhor forma os clientes de acordo com
+                    os objetivos da empresa.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5 class="title-with-underline">Desenvolvedor Júnior</h5>
+                </div>
+                <div class="col-md-4">
+                  <h5 class="title-with-underline">
+                    Disponivel para contratação
+                  </h5>
+                </div>
+                <div class="col-md-4 button-color">
+                  <a download href="./images/Rafael Virginio Da Silva TI.pdf">
+                    <button type="button" class="btn btn-dark col-md-12">
+                      Download CV
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-profile"
+          role="tabpanel"
+          aria-labelledby="list-profile-list"
+        >
+          <div class="row justify-content-md-center">
+            <h1
+              class="row justify-content-md-center title-with-underline"
+              style="margin-bottom: 80px"
+            >
+              Resumo
+            </h1>
+          </div>
+          <div class="row justify-content-md-center" style="text-align: center">
+            <div class="row col-md-10">
+              <h3 class="title-with-underline">Cursos</h3>
+              <ul class="timeline">
+                <li>
+                  <h5>Análise e Desenvolvimento de Sistemas</h5>
+                  <span>Unip Universidade Paulista. 2018 - 2020</span>
+                </li>
+                <li>
+                  <h5>Curso de Inglês</h5>
+                  <span>All-Net.</span>
+                </li>
+                <li>
+                  <h5>HTML5 e CSS3 GRID</h5>
+                  <span>Lucas Caton.</span>
+                </li>
+                <li>
+                  <h5>HTML5, CSS3, JS, Bootstrap, React, Node.Js</h5>
+                  <span>COD3R - Cursos Online.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h1 class="row justify-content-md-center title-with-underline">
+            Minhas Skills
+          </h1>
+
+          <div class="row justify-content-md-center">
+            <div class="col-md-10 skills">
+              <span class="logo-tecnologies title-with-underline">
+                <img src="./images/html.svg" />
+                HTML
+              </span>
+              <span class="logo-tecnologies title-with-underline">
+                <img src="./images/css.svg" />
+                CSS
+              </span>
+              <span class="logo-tecnologies title-with-underline">
+                <img src="./images/javascript.svg" />
+                JAVASCRIPT
+              </span>
+              <span class="logo-tecnologies title-with-underline">
+                <img src="./images/bootstrap.svg" />
+                BOOTSTRAP
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="list-messages"
+          role="tabpanel"
+          aria-labelledby="list-messages-list"
+        >
+          <div class="row">
+            <h1 class="row justify-content-md-center title-with-underline">
+              Contatos e Redes Sociais
+            </h1>
+          </div>
+          <div class="row justify-content-md-center">
+            <div class="col-md-10 row jumbotron" style="text-align: center">
+              <div class="col-md-4 midia-logo">
+                <a href="mailto:rafael5845@gmail.com">
+                  <img src="./images/gmail.svg" />
+                  <h6>rafael5845@gmail.com</h6>
+                </a>
+              </div>
+              <div class="col-md-4 midia-logo">
+                <img src="./images/whatsapp.svg" />
+                <h6>(11) 96787-6942</h6>
+              </div>
+              <div class="col-md-4 midia-logo">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/rafavirgiinio/"
+                >
+                  <img src="./images/instagram.png" />
+                  <h6>@rafavirgiinio</h6>
+                </a>
+              </div>
+              <div class="col-md-4 midia-logo">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rafael-virg%C3%ADnio-da-silva-288a8468/"
+                >
+                  <img src="./images/linkedin.svg" />
+                  <h6>Rafael Virgínio da Silva</h6>
+                </a>
+              </div>
+              <div class="col-md-4 midia-logo">
+                <a target="_blank" href="https://github.com/rafavirginio">
+                  <img src="./images/github.png" />
+                  <h6>Rafa Virgínio</h6>
+                </a>
+              </div>
+              <div class="col-md-4 midia-logo">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/profile.php?id=100001573343039"
+                >
+                  <img src="./images/facebook.svg" />
+                  <h6>Rafa Virgínio</h6>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Painel dos projetos -->
+
+        <div
+        class="tab-pane fade"
+        id="list-projects"
+        role="tabpanel"
+        aria-labelledby="list-projects-list"
+      >
+      <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center" style="text-align: center">
+          <div class="row col-md-10">
+            <h3>Projetos desenvolvidos com HTML5, CSS3 E JAVASCRIPT</h3>
+            <ul class="timeline images-size">
+
+          <!-- Inserir aqui os projetos -->
+        <li>
+            
+          <a href="https://rafavirginio.github.io/formulary-with-mailchimp/" target="_blank">Formulário de Cadastros
+            <br>
+          <img src="assets/image-formulary.gif"></a>
+          </li>
+          <li>
+           
+          <a href="https://rafavirginio.github.io/to-do-list/" target="_blank">Lista de Tarefas
+            <br>
+          <img src="assets/to-do-list-image.gif"></a>
+        </li>
+          
+          <li>
+           <a href="https://rafavirginio.github.io/cronometro-js/" target="_blank">Cronômetro Js
+             <br>
+          <img src="assets/image-cronometro-js.gif"></a>
+        </li>
+        <li>
+             <a href="https://rafavirginio.github.io/teste-layout/" target="_blank">Template Layout
+            <br>
+          <img src="assets/image-layout.gif"></a>
+          </li>
+          <li>
+            
+          <a href="https://rafavirginio.github.io/flappy-bird/" target="_blank">Flappy Bird Game
+            <br>
+          <img src="assets/image-flappy-bird.gif">
+          </a>
+          </li>
+          <li>
+          <a href="https://rafavirginio.github.io/projeto-massa/" target="_blank">Projeto Massa
+            <br>
+          <img src="assets/image-projeto-massa.gif">
+          </a>
+        </li>
+        <li>
+          <a href="https://rafavirginio.github.io/slideShow/" target="_blank">Tela de Slides
+            <br>
+          <img src="assets/image-slideShow.gif">
+          </a>
+          </li>
+          <li>
+          <a href="https://rafavirginio.github.io/clone-do-youtube/" target="_blank">Clone do Youtube
+            <br>
+          <img src="assets/image-youtube.gif">
+          </a>
+        </li>
+      </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
